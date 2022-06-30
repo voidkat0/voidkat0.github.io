@@ -24,7 +24,8 @@ body	{
 /* V */
 
 .vimg	{
-	width: 32%;
+	width: 32em;
+	display: inline-block;
 }
 	
 
