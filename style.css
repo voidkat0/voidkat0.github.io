@@ -24,12 +24,17 @@ body	{
 /* V */
 
 .show:hover + .vimg	{
-	width: 32%;
+	width: 100%;
 	display: inline-block;
 }
 
 .vimg	{
 	display: none;
+}
+	
+.vimg > img	{
+	width: 32%;
+	display: inline-block;
 }
 	
 
