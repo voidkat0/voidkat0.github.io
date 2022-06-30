@@ -23,9 +23,13 @@ body	{
 
 /* V */
 
-.vimg	{
+.vimg:hover	{
 	width: 32%;
 	display: inline-block;
+}
+
+.vimg	{
+	display: none;
 }
 	
 
@@ -51,18 +55,6 @@ body	{
 
 .t4	{
 	margin-top: 10em;
-}
-
-.grow	{
-	overflow: hidden;
-	transition: height 1.5s;
-	-webkit-transition: height 1.5s;
-}
-
-.grow:hover		{
-	height: 400px;
-	transition: height 1.5s;
-	-webkit-transition: height 1.5s;
 }
 
 /* projects */
