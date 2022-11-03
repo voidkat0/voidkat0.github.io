@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+  <html lang ="us">
+  <!DOCTYPE html>
+	<html lang="us">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="description" content="Fatima Mendoza's resume">
+			<title>Resume</title>
+			<link rel="stylesheet" href="style.css">
+			<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+		<head>
+		<body>
+			<header>
+				<div id="navb">
+				
+					<a href="V.html"><button class="navbutton"><b>Volunteer Work</b></button></a>
+					<a href="index.html"><button class="navbutton"><b>Home</b></button></a>
+					<a href="Projects.html"><button class="navbutton defaultOpen"><b>Projects</b></button></a>
+				
+				</div>
+			</header>
+    </body>
