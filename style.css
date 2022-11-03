@@ -313,13 +313,13 @@ footer a{
 footer a:hover	{
 	color: plum;
 }
-
+/*
 #homefooter	{
 	position: absolute;
 	bottom: 0;
 	width: 115em;
 	overflow: hidden;
-}
+}*/
 
 /*media query*/
 
