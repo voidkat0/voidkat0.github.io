@@ -64,6 +64,11 @@ body	{
 
 /* projects */
 	
+.gamebutton {
+	width: 50%;
+	
+}
+
 #side	{
 	margin: 0;
 	padding: 1.5em;
