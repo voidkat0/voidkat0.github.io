@@ -44,29 +44,29 @@ public class FirstPersonController : MonoBehaviour<br>
     // Update is called once per frame<br>
     void Update()<br>
     {<br>
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);<br>
 
-        if(isGrounded && velocity.y < 0)
-        {
-            velocity.y = -2f;
+        if(isGrounded && velocity.y < 0)<br?
+        {<br>
+            velocity.y = -2f;<br>
         }
 
-      float x = Input.GetAxis("Horizontal");
-      float z = Input.GetAxis("Vertical");
+      float x = Input.GetAxis("Horizontal");<br>
+      float z = Input.GetAxis("Vertical");<br>
 
-      Vector3 move = transform.right * x + transform.forward * z;
+      Vector3 move = transform.right * x + transform.forward * z;<br>
 
-        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(move * speed * Time.deltaTime);<br>
 
-        if(Input.GetButtonDown("Jump"))
-        {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-        }
+        if(Input.GetButtonDown("Jump"))<br>
+        {<br>
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);<br>
+        }<br>
 
-        velocity.y += gravity * Time.deltaTime;
+        velocity.y += gravity * Time.deltaTime;<br>
 
-        controller.Move(velocity * Time.deltaTime);
-    }
+        controller.Move(velocity * Time.deltaTime);<br>
+    }<br>
 }
                                         </p>
 			</div>
